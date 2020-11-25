@@ -17,12 +17,13 @@ O shader em si esta dentro da pasta black_hole. eh possivel ver e editar o codig
 
 ----
 
-O shader foi inicialmente projetado em shadergraph no unity e entao convertemos a logica para a syntax de GLSL (ou ao menos a versao de godot que eh bem parecida)
+O shader foi inicialmente projetado em shadergraph no unity e entao convertemos a logica para a syntax de GLSL (ou ao menos a versao de gedot que eh bem parecida)
 
 nesse processo deixamos a logica ainda mais simplificada e otimizada. A parte mais complicada do projeto foi descobrir uma forma de mapear o que esta atraz da mesh nela, como 
 se fosse um shader transparente, para entao aplicar a distorcao. Usamos isso com uma tecnica usando uma funcao que pega a cor do pixel UV de uma textura e passando a propria textura da camera como parametro.
 
 E o efeito nao eh totalmente preciso comparado a um Black Hole de verdade, mas eh uma aproximacao boa o bastante para ser usada como efeito especial em um joog ou filme e todos conseguiriam identificar.
+
 
 
 
